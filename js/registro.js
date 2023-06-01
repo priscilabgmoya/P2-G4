@@ -61,6 +61,4 @@ function registrarUsuario() {
 
 window.onload = function () {
   cargarPaginaUsuario();
-  const btnLogin = document.getElementById('btn-login');
-  btnLogin.onclick = function () { loginUsuario() };
 }

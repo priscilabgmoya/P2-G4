@@ -101,8 +101,6 @@ function cargarBotones() {
       window.open(url, "_blank");
     };
   });
-  /*const btnLogin = document.getElementById('btn-login');
-  btnLogin.onclick = function () { };*/
   const btnBuscar = document.querySelector('.btn-buscar');
   btnBuscar.onclick = function (event) { buscarComic(event) };
 }

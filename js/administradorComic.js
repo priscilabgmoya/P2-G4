@@ -50,7 +50,6 @@ function validarFormularioAgregarComic(event) {
 /**Validamos el from de modificar un comic */
 formModificarComic.addEventListener("submit", validarFormularioModificarComic);
 function validarFormularioModificarComic(event) {
-  debugger
   event.preventDefault();
   if (!formModificarComic.checkValidity()) {
     event.stopPropagation();
